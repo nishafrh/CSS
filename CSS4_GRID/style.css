@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 350px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
+    /* kalau ukuran gapnya sama, dapat menjadi:
+    grid-gap: 20px; */
+    justify-items:stretch;
+    align-items:stretch;
+  }
+  
+  .grid-item-1 {
+    align-self:start;
+    justify-self:center;
+  }

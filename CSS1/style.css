@@ -1,0 +1,258 @@
+/* External CSS:
+h3{
+    color: green;
+} */
+
+/* untuk mengatur semuanya:
+* {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    /* font size default: 12px */
+    font-weight: normal;
+    /* font-weight: 800; */
+    /* atau, font-weight: bold; */
+    
+    /* atau jika disatukan menjadi: */
+    /* font: normal 16px Arial, Helvetica, sans-serif;  */
+
+    line-height: 1.6em;
+    /* line-height: 30px; */
+
+    margin: 0
+}
+
+.container {
+    /* width: 400px; 
+    atau: */
+    width: 80%;
+    margin: auto;
+}
+.box-1 {
+    background-color: rgb(160, 149, 149);
+    /* atau:
+    background-color: #333333;
+    background-color: #333; */
+    color: #fff;
+
+    /* border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    atau: */
+    border: 5px red solid;
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    /* padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    atau: */
+    padding: 20px;
+
+    /* margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    atau: */
+    margin: 20px 80px;
+
+    /* format untuk padding/border/margin: 
+    atas kanan bawah kiri = 5px 10px 15px 20px
+    atas bawah kanan kiri = 5px 10px*/
+}
+
+.box-1 h3 {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    padding: 20px;
+    border: 3px dashed lightseagreen;
+    margin: 20px 80px;
+    background-color: yellowgreen;
+}
+
+.categories {
+    padding: 20px;
+    border: 3px dashed lightblue;
+    margin: 20px 80px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    list-style: square;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color:purple;
+}
+
+.categories li {
+    padding-bottom: 5px;
+    border-bottom: 2px dotted blue;
+    /* kalau list-nya mau pake gambar:
+    kalau sumber gambarnya dari path lokal pun, tetep pake url
+    list-style-image: url(https://www.pngitem.com/pimgs/m/72-720047_checklist-symbol-png-red-no-background-check-mark.png); */
+}
+
+.my-form {
+    padding: 30px;
+    margin: 20px 80px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.button{
+    padding: 10px 10px;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    /* border: none; */
+}
+
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.block {
+    float:left;
+    width:33.3%; 
+    border: 1px gray solid;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: pink;
+    color:black;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+/* Menempatkan p-box h1 di 40px dr atas 
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 40px; 
+} */
+
+/* Menempatkan p-box h1 di 40px dr bagian p-box  */
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../CSS1/turtle.jpg');
+    /* background-size:cover; */
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+}
+
+.p-box h1 {
+    /* Menempatkan p-box h1 di 40px dr atas  */
+    position: absolute;
+    top: 40px;
+    left: 50px; 
+    color: black
+}
+
+.p-box h2 {
+    /* Menempatkan p-box h1 di 40px dr atas  */
+    position: absolute;
+    left: 40px; 
+    right: 100px;
+    bottom: 20px;
+    color: black
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background-color: rgb(194, 109, 109);
+    color: black;
+}
+
+.my-list li:last-child{
+    background-color: rgb(109, 110, 194);
+    color: black;
+}
+
+.my-list li:nth-child(6){
+    background-color: rgb(188, 194, 109);
+    color: black;
+}
+
+.my-list li:nth-child(odd){
+    background-color: rgb(116, 194, 109);
+    color: black;
+}
+
+.my-list li:nth-child(even){
+    background-color: rgb(10, 97, 2);
+    color: yellow;
+}

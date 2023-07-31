@@ -1,0 +1,38 @@
+body {
+    color: red;
+}
+
+.title {
+    color: red;
+    font-size: 50px;
+}
+
+.sub-title {
+    color: red;
+    font-size: 50px;
+}
+
+@media (max-width: 800px)  {
+    .title {
+        font-size: 30px;
+        color: yellow;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        color: green;
+    }
+}
+
+@media (max-width: 350px)  {
+    .title {
+        font-size: 20px;
+        color: orangered;
+    }
+
+    .sub-title {
+        font-size: 15px;
+        color: blue;
+    }
+}
+

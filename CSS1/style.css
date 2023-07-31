@@ -13,63 +13,23 @@ body {
     background-color: #f4f4f4;
     color: #555555;
     
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; 
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 16px;  */
     /* font size default: 12px */
-    font-weight: normal;
-    /* font-weight: 800; */
-    /* atau, font-weight: bold; */
+    /* font-weight: bold; */
     
     /* atau jika disatukan menjadi: */
-    /* font: normal 16px Arial, Helvetica, sans-serif;  */
+    font: bold 16px Arial, Helvetica, sans-serif; 
 
-    line-height: 1.6em;
-    /* line-height: 30px; */
-
-    margin: 0
+    line-height: 1.5em;
+    /* line-height: 20px; */
 }
 
 .container {
-    /* width: 400px; 
-    atau: */
-    width: 80%;
+    width: 100%; 
+    /* mengatur lebar bagian container */
+    
     margin: auto;
-}
-.box-1 {
-    background-color: rgb(160, 149, 149);
-    /* atau:
-    background-color: #333333;
-    background-color: #333; */
-    color: #fff;
-
-    /* border-right: 5px red solid;
-    border-bottom: 5px red solid;
-    border-left: 5px red solid;
-    border-top: 5px red solid;
-    atau: */
-    border: 5px red solid;
-
-    border-width: 3px;
-    border-bottom-width: 10px;
-    border-top-style: dotted;
-
-    /* padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    atau: */
-    padding: 20px;
-
-    /* margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    atau: */
-    margin: 20px 80px;
-
-    /* format untuk padding/border/margin: 
-    atas kanan bawah kiri = 5px 10px 15px 20px
-    atas bawah kanan kiri = 5px 10px*/
 }
 
 .box-1 h3 {
@@ -80,6 +40,27 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     word-spacing: 1em;
+}
+
+.box-1 {
+    background-color: rgb(160, 149, 149);
+    color: #fff;
+    width: 80%;
+    margin: auto;
+
+    /* padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    atau: */
+    padding: 20px;
+    
+    /* border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid; */
+    /* atau: */
+    border: 5px red solid;
 }
 
 .box-2 {

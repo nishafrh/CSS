@@ -1,0 +1,55 @@
+Tag 'div' digunakan untuk membagi isi elemen HTML dalam suatu kesatuan tertentu.
+
+jika mau mengatur style untuk:
+class, gunakan .
+id, gunakan #
+
+class untuk tag a sebagai link:
+button -> untuk membuat button
+
+mengatur lebar suatu bagian:
+width: ...% atau ..px;
+note: jika lebar atau width suatu bagian menggunakan pixel, maka ketika ukuran aplikasi diubah2, maka ukuran bagian tersebut tidak menyesuaikan dengan ukuran aplikasi.
+sedangkan jika menggunakan persen, ukuran bagian akan berubah2 sesuai ukuran aplikasi
+
+mengatur warna latar belakang:
+background-color: #000000; atau
+background-color: #000; atau
+background-color: black; atau
+background-color: rgb(0,0,0);
+
+mengatur warna font:
+color: #ffffff; atau
+color: #fff; atau
+color: white; atau
+color: rgb(255,255,255);
+
+mengatur padding:
+padding kanan: 
+padding-right: ..px atau ..em atau ..%;
+-----
+padding kiri: 
+padding-left: ..px atau ..em atau ..%;
+-----
+padding atas: 
+padding-top: ..px atau ..em atau ..%;
+-----
+padding bawah: 
+padding-bottom: ..px atau ..em atau ..%;
+-----
+padding atas-bawah kanan-kiri:
+padding: 20px 40px;
+-----
+padding keseluruhan:
+padding: ..px atau ..em atau ..%;
+
+notes: padding hanya berupa ukuran, tidak memiliki warna
+
+macam-macam style border:
+cek listnya dengen membuat 'border-style: ;'
+
+format untuk padding/border/margin: 
+atas kanan bawah kiri = 5px 10px 15px 20px
+atas bawah kanan kiri = 5px 10px
+
+
